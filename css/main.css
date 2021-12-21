@@ -175,3 +175,76 @@ footer span {
 	color: #77a466;
 	font-size: 1em;
 }
+
+@media all and (min-width:768px) {
+	/* Tablet styles here */
+
+.bottom-section {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row nowrap;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee; 
+}
+	
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	border: none;   
+}
+
+.section-one {
+	padding-right: 1em;
+}
+
+.section-two {
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee; 
+	padding: 0 1em; 
+}
+
+.section-three {
+	padding-left: 1em; 
+}
+
+footer {
+	border-top: none; 
+}
+	
+
+
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+ 
+header {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-flow: row wrap; 
+	width: 100%; 
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-flow: row wrap; 
+}
+
+header h1 {
+	width: 50%; 
+    padding: 0em;
+    border-bottom: none;
+    text-align: left;
+  }
+
+nav {
+	 width: 50%; 
+ } 
+
+}
